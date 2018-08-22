@@ -13,6 +13,10 @@ public class TrimArray {
     	if(data.length > 99) {
     		return null;
     	}
+	
+	if(data.length < 1){
+		return null;
+	}
     	
     	int[] tempData = data;
     	int[] newData = data;
